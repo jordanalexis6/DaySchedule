@@ -2,6 +2,7 @@ $(document).ready(function () {
   // displaying current day on html
   $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
   // lets the js know what the current hour is to implement colors
+  let currentHour = moment().hour();
   // setting time to keep going up so we can use this in a for loop
   // if the currentHour is less than the time displayed use correct classes
   // if the currentHour is less than the time displayed use correct classes
