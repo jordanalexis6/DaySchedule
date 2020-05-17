@@ -4,6 +4,7 @@ $(document).ready(function () {
   // lets the js know what the current hour is to implement colors
   let currentHour = moment().hour();
   // setting time to keep going up so we can use this in a for loop
+  let time = [9, 10, 11, 12, 13, 14, 15, 16, 17];
   // if the currentHour is less than the time displayed use correct classes
   // if the currentHour is less than the time displayed use correct classes
   // save button function
